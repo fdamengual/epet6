@@ -1,0 +1,20 @@
+.contenedor-logo{
+    width: 100%;
+    align-content: center;
+    position: absolute;
+
+}
+
+    .logo {
+        width: 90%;
+        height: 10%;
+    }
+
+    .contenedor-principal{
+        margin: 2% 10% 10% 10%;
+
+    }
+
+    .clases-online-img{
+        margin: auto;
+    }
