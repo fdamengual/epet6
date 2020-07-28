@@ -1,20 +1,59 @@
-.contenedor-logo{
-    width: 100%;
-    align-content: center;
-    position: absolute;
+
+.logo img {
+    width: 330px;
+    height: 280px;
+    margin-top: 20px;
+    
+}
+
+.column{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(216, 214, 214);
+    border-radius: 6px;
+    
+    
+}
+
+.column a:link {
+    text-decoration: underline;
+    
 
 }
 
-    .logo {
-        width: 90%;
-        height: 10%;
-    }
-
     .contenedor-principal{
-        margin: 2% 10% 10% 10%;
+        margin: 2% 8% 8% 8%;
 
     }
 
     .clases-online-img{
         margin: auto;
     }
+
+    .centrado{
+        width: 100%;
+        text-align: center;
+    }
+
+    .videos{
+        border: 1px  blue;
+        margin: 1%;
+        width: 600px;
+        
+        padding-bottom: 1%;
+        position: absolute;
+        overflow: hidden;
+        box-shadow: 0px 0px 10px 1px black;
+        transition: all 600ms;
+    }
+
+    .videos > p{
+
+        
+    display: block;
+    color: rgba(0, 0, 0, .78);
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    
+    }
+
